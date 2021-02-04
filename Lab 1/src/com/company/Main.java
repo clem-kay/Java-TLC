@@ -1,6 +1,6 @@
 package com.company;
 import java.lang.Math.*;
-import java.util.Scanner;
+import java.util.*;
 public class Main {
 
     public static void main(String[] args) {
@@ -59,13 +59,13 @@ public class Main {
         //question 4
 //        int range = 3 - (-3);
 //        int rand = 1;
-
+//
 //        do {
 //            rand = (int) (Math.random() * range) + (-3);
 //            System.out.println(rand);
 //        }while(rand !=0);
-
-        //using while loop
+//
+//        //using while loop
 //        while(rand != 0){
 //            rand = (int) (Math.random() * range) + (-3);
 //            System.out.println(rand);
@@ -73,15 +73,13 @@ public class Main {
 
 
         //question 5
-//        int count = 1;
-//        for (int i =1;i<=10;i++){
-//            while(count <=12){
-//                System.out.println(count + " X " + i + " = "+(count*i));
-//                count++;
-//            }
-//            count = 1;
-//            System.out.println("");
-//        }
+        int count = 1;
+        for (int i =1;i<=10;i++){
+            for(int j=1;j<=12;j++){
+                System.out.println(j + " X " + i + " = "+(j*i));
+            }
+            System.out.println("");
+        }
 
         //question 6
 //        int count =0;
@@ -92,13 +90,13 @@ public class Main {
 //        }
 
         //question 6b
-        int range = getInput();
-        int count = 0;
-        while(count <6){
-            int rand = (int) (Math.random() * 49) + 1;
-            System.out.println(rand);
-            count++;
-        }
+//        int range = getInput();
+//        int count = 0;
+//        while(count <6){
+//            int rand = (int) (Math.random() * 49) + 1;
+//            System.out.println(rand);
+//            count++;
+//        }
 
    }
 
